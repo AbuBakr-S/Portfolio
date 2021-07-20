@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Navigation */
-nav, p, li, a, figcaption {
+nav, p, li, a, figcaption, button {
   font-family: 'Gloria Hallelujah', cursive;
 }
 
@@ -146,6 +146,24 @@ main h2 {
   background-color: #000;
   margin: 5px;
   padding: 5px 10px;
+}
+
+.project button {
+  background-color: #588157;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.project button:hover {
+  color: #588157;
+  background-color: #fff;
+}
+
+.project button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /* ##### CSS GRID ##### */
