@@ -184,6 +184,7 @@ footer section {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  padding-bottom: 5%;
 }
 
 footer div {
