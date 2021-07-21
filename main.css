@@ -11,6 +11,16 @@ body {
 }
 
 /* ##### Nav ##### */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FAF9F6;
+  padding-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
 #myLinks {
   display: flex;
   justify-content: space-evenly;
@@ -51,7 +61,8 @@ main {
 
 /* Header */
 header {
-  margin: 5%;
+  margin-top: 100px;
+  /* margin: 5%; */
   text-align: center;
 }
 
@@ -209,7 +220,7 @@ footer img {
     background-color: #FAF9F6;
     position: relative;
     border: 2px solid #000;
-    border-radius: 255px 15px 225px 15px/15px 225px 
+    border-radius: 255px 15px 225px 15px/15px 225px; 
   }
 
   #myLinks {
