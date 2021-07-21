@@ -189,10 +189,11 @@ footer ul {
 footer ul li {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 footer img {
-  height: 40px;
+  height: 2rem;
   width: auto;
   margin-right: 10px;
 }
@@ -267,6 +268,10 @@ footer img {
   }
   .project .project-description {
     width: 100%;
+  }
+
+  footer ul {
+    flex-direction: column;
   }
 }
 
