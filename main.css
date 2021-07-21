@@ -17,15 +17,15 @@ body {
   margin-top: 25px;
 }
 
-#myLinks a:link, #myLinks a:visited {
+a:link, a:visited {
   color: #000;
 }
 
-#myLinks a {
+a {
   text-decoration: none;
 }
 
-#myLinks a:hover {
+a:hover {
   color: #588157;
   font-weight: bold;
   text-decoration: underline;
@@ -180,16 +180,15 @@ main h2, main h3, footer h2 {
   text-align: center;
 }
 
-footer ul {
+footer section {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
 }
 
-footer ul li {
+footer div {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 footer img {
@@ -270,8 +269,9 @@ footer img {
     width: 100%;
   }
 
-  footer ul {
+  footer section {
     flex-direction: column;
+    align-items: center;
   }
 }
 
