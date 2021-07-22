@@ -193,6 +193,35 @@ main h2, main h3, footer h2 {
   transform: translateY(4px);
 }
 
+/* Interests */
+.interests .one, .interests .two, .interests .three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10% 0;
+  padding-bottom: 10%;
+  border-bottom: 2px solid;
+  flex-wrap: wrap;
+}
+
+.interests figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interests img {
+  width: 100px;
+  height: auto;
+}
+
+.interests .content {
+  width: 60%;
+  overflow-wrap: break-word;
+}
+
+
+
 #contact {
   text-align: center;
 }
@@ -283,6 +312,10 @@ footer img {
   }
   .project .project-description {
     width: 100%;
+  }
+
+  .interests .one, .interests .two, .interests .three {
+    flex-direction: column;
   }
 
   footer section {
