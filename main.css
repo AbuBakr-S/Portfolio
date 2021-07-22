@@ -39,7 +39,7 @@ a {
 }
 
 a:hover {
-  color: #588157;
+  color: #900C3F;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -177,7 +177,7 @@ main h2, main h3, footer h2 {
 }
 
 .project button {
-  background-color: #588157;
+  background-color: #900C3F;
   color: #fff;
   border-radius: 5px;
   padding: 5px 15px;
@@ -185,8 +185,8 @@ main h2, main h3, footer h2 {
 }
 
 .project button:hover {
-  color: #588157;
-  background-color: #fff;
+  color: #000;
+  background-color: #FAF9F6;
 }
 
 .project button:active {
@@ -219,6 +219,10 @@ main h2, main h3, footer h2 {
 .interests .content {
   width: 60%;
   overflow-wrap: break-word;
+}
+
+.interests a {
+  color: #900C3F;
 }
 
 
