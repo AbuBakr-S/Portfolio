@@ -15,10 +15,12 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
+  box-sizing: border-box;
   width: 100%;
   background-color: #FAF9F6;
-  padding-bottom: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 225px; 
 }
 
 #myLinks {
@@ -61,7 +63,7 @@ main {
 
 /* Header */
 header {
-  margin-top: 100px;
+  margin: 100px 10% 0 10%;
   /* margin: 5%; */
   text-align: center;
 }
@@ -87,6 +89,10 @@ header img {
 
 header h2 {
   color: #588157;
+}
+
+header h3 {
+  margin: 2rem;
 }
 
 main h2, main h3, footer h2 {
@@ -219,8 +225,6 @@ footer img {
     overflow: hidden;
     background-color: #FAF9F6;
     position: relative;
-    border: 2px solid #000;
-    border-radius: 255px 15px 225px 15px/15px 225px; 
   }
 
   #myLinks {
