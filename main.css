@@ -195,7 +195,7 @@ main h2, main h3, footer h2 {
 }
 
 /* Interests */
-.about .one, .about .two, .about .three {
+.interests .one, .interests .two, .interests .three {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -205,30 +205,30 @@ main h2, main h3, footer h2 {
   flex-wrap: wrap;
 }
 
-.about .icon figure {
+.interests .icon figure {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: ;
 }
 
-.about .icon img {
+.interests .icon img {
   width: 100px;
   height: auto;
 }
 
-.about .content {
+.interests .content {
   width: 60%;
   overflow-wrap: break-word;
 }
 
-.about .content img {
+.interests .content img {
   width: 80%;
   height: auto;
   margin-top: 8px;
 }
 
-.about a {
+.interests a {
   color: #900C3F;
 }
 
@@ -328,7 +328,7 @@ footer img {
     width: 100%;
   }
 
-  .about .one, .about .two, .about .three {
+  .interests .one, .interests .two, .interests .three {
     flex-direction: column;
   }
 
