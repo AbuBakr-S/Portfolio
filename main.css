@@ -195,7 +195,7 @@ main h2, main h3, footer h2 {
 }
 
 /* Interests */
-.interests .one, .interests .two, .interests .three {
+.about .one, .about .two, .about .three {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -205,27 +205,36 @@ main h2, main h3, footer h2 {
   flex-wrap: wrap;
 }
 
-.interests figure {
+.about .icon figure {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: ;
 }
 
-.interests img {
+.about .icon img {
   width: 100px;
   height: auto;
 }
 
-.interests .content {
+.about .content {
   width: 60%;
   overflow-wrap: break-word;
 }
 
-.interests a {
+.about .content img {
+  width: 80%;
+  height: auto;
+  margin-top: 8px;
+}
+
+.about a {
   color: #900C3F;
 }
 
-
+.github-card {
+  background-color: #000;
+}
 
 #contact {
   text-align: center;
@@ -319,7 +328,7 @@ footer img {
     width: 100%;
   }
 
-  .interests .one, .interests .two, .interests .three {
+  .about .one, .about .two, .about .three {
     flex-direction: column;
   }
 
