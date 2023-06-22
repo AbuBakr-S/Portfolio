@@ -131,8 +131,8 @@ main h2, main h3, footer h2 {
 }
 
 .experience img {
-  width: 200px;
-  height: auto;
+  object-fit: fill;
+  height: 40px;
 }
 
 
