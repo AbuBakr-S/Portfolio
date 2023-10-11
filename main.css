@@ -328,6 +328,12 @@ footer img {
     width: 100%;
   }
 
+  .gallery {
+    box-sizing: border-box;
+    margin-right: 0;
+    margin-bottom: 10%;
+  }
+
   .interests .one, .interests .two, .interests .three {
     flex-direction: column;
   }
@@ -345,4 +351,34 @@ footer img {
     align-items: center;
     padding: 0 15%;
   }
+}
+
+.gallery{
+  overflow: hidden;
+  /* border: 10px solid #ffffff; */
+  border-radius: 8px;
+  box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
+  margin-right: 10%;
+}
+
+.wrapper{
+  max-width: 500px;
+  display: flex;
+  animation: slide 8s infinite;
+}
+
+@keyframes slide{
+  0%{
+      transform: translateX(0%);
+  }
+  50%{
+    transform: translateX(-100%);
+  }
+  100%{
+      transform: translateX(0%);
+  }
+}
+
+.wrapper img {
+  width: 100%;
 }
